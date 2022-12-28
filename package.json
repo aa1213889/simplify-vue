@@ -1,0 +1,18 @@
+{
+  "name": "simplify-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "build-packages": "pnpm zx scripts/build-packages.js reactivity -f esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.12",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "zx": "^7.1.1"
+  }
+}
